@@ -1,0 +1,18 @@
+.btn{
+    width: 140px;
+    height: 5vh;
+    color: white;
+    background-color:  #6e94d1;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: #1c3961;
+    cursor: pointer;
+}
+.card-border{
+    box-shadow:none;
+    transition: .5s;
+    margin: 20px 20px;
+    border: 2px solid rgb(231, 219, 219);
+    text-align: center;
+}

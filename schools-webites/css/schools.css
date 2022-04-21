@@ -1,0 +1,29 @@
+.card {
+    box-shadow:none;
+    transition: .5s;
+    width: 30%;
+    margin: 20px 20px;
+    border: 1px solid rgb(231, 219, 219);
+    text-align: center;
+    background-color: rgb(231, 219, 219);
+    border-radius: 10px;
+    
+}
+.container {
+    text-align: center;
+  } 
+.card:hover {
+    box-shadow: 0 8px 10px 0 black;
+    cursor:pointer;
+    opacity: .8;
+  }   
+  .school-background{
+    
+    background-image: url(../images/schoolbg.jpg);
+    background-attachment: fixed;
+    height: 75vh;
+    background-size: 100% 100%;
+    
+    position: relative;
+    width: 100%;
+  }
